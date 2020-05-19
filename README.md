@@ -53,13 +53,14 @@ const app = new Vue({
 });
 ```
 
-That's it! You can now use the `hero-icon` component anywhere in your Vue components.
+That's it! You can now use the `hero-icon` anywhere in your Vue components.
 
 ```html
 <template>
     <div>
         <hero-icon name="heart" class="w-5 h-5 text-red-500" />
         <hero-icon name="heart" class="w-5 h-5 text-red-500" is-outline />
+        <hero-icon name="heart" width="24" height="24" style="color: red;" />
     </div>
 </template>
 ```
