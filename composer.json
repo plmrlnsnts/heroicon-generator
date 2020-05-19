@@ -1,0 +1,51 @@
+{
+    "name": "plmrlnsnts/heroicon-generator",
+    "description": "Vue component generator for heroicons",
+    "keywords": [
+        "plmrlnsnts",
+        "heroicon-generator"
+    ],
+    "homepage": "https://github.com/plmrlnsnts/heroicon-generator",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Paul Santos",
+            "email": "paulmarlonsantos@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^6.0|^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plmrlnsnts\\HeroiconGenerator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plmrlnsnts\\HeroiconGenerator\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Plmrlnsnts\\HeroiconGenerator\\HeroiconGeneratorServiceProvider"
+            ]
+        }
+    }
+}
