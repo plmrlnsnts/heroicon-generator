@@ -15,7 +15,7 @@ You can install this package via composer:
 compose require plmrlnsnts/heroicon-generator
 ```
 
-Next, install the [heroicon](https://github.com/refactoringui/heroicons) library.
+Next, install the [heroicons](https://github.com/refactoringui/heroicons) library.
 
 ```bash
 npm install heroicons
