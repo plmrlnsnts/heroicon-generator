@@ -1,6 +1,6 @@
 {
     "name": "plmrlnsnts/heroicon-generator",
-    "description": "Vue component generator for heroicons",
+    "description": "A Laravel package to generate heroicon vue components.",
     "keywords": [
         "plmrlnsnts",
         "heroicon-generator"
