@@ -12,7 +12,7 @@ A package to generate icon components from your Laravel projects.
 You can install this package via composer:
 
 ```bash
-compose require plmrlnsnts/heroicon-generator
+composer require plmrlnsnts/heroicon-generator
 ```
 
 Next, install the [heroicons](https://github.com/refactoringui/heroicons) library.
